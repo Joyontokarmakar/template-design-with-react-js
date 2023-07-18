@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-
+import blackLogo from"../assets/images/black-logo.png"
 function Footer() {
     const getCopyrightYear = () => {
         return new Date().getFullYear()
@@ -38,7 +38,7 @@ function Footer() {
                 <div className={'w-0.5 h-[220px] bg-[#010C23] opacity-[0.15]'}></div>
                 <div className={'pl-[25px]'}>
                     <Link to={'/'}>
-                        <img src="../assets/images/black-logo.png" alt="" className={'h-10 w-[202px]'}/>
+                        <img src={blackLogo} alt="" className={'h-10 w-[202px]'}/>
                     </Link>
                     <h2 className={'text-2xl leading-[35px] text-black font-semibold mt-5'}>Tristique senectus et netus<br/> et malesuada fames</h2>
                     <p className={'mt-[30px] text-black2 text-[15px] font-light'}>&copy;{getCopyrightYear()} Logoipsum. All rights reserved</p>

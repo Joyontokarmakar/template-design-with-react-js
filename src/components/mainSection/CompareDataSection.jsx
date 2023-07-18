@@ -1,4 +1,4 @@
-
+import chartImage from "../../assets/images/chart-img.png"
 function CompareDataSection() {
     return (
         <div className={'mt-[160px] container mx-auto 2xl:max-w-[1675px]'}>
@@ -7,7 +7,7 @@ function CompareDataSection() {
                 <p className={'text-2xl text-black1 font-normal mt-[18px] opacity-70'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br/> tempor incididunt ut labore </p>
             </div>
             <div className={'mt-[55px]'}>
-                <img src="/src/assets/images/chart-img.png" alt="" className={'mx-auto block'}/>
+                <img src={chartImage} alt="" className={'mx-auto block'}/>
                 <div className={'flex justify-center gap-x-[30px] mt-[64px]'}>
                     <div className={'w-1/2'}>
                         <p className={'text-black1 text-xl font-semibold text-center'}>Facebook data</p>

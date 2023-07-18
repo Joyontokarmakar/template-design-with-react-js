@@ -1,4 +1,12 @@
-
+import icon1 from "../../assets/images/icons/icon-1.png"
+import fbIcon from "../../assets/images/icons/fb-icon.png"
+import icon2 from "../../assets/images/icons/icon-2.png"
+import tiktokIcon from "../../assets/images/icons/tiktok-icon.png"
+import pinterestIcon from "../../assets/images/icons/pinterest-icon.png"
+import twitterIcon from "../../assets/images/icons/twitter-icon.png"
+import icon3 from "../../assets/images/icons/icon-3.png"
+import snapchatIcon from "../../assets/images/icons/snapchat-icon.png"
+import icon4 from "../../assets/images/icons/icon-4.png"
 function SocialSection() {
     return (
         <div className={'mt-[160px] container mx-auto 2xl:max-w-[1675px]'}>
@@ -12,39 +20,39 @@ function SocialSection() {
                     <div className={'flex justify-start items-start gap-x-[62px]'}>
                         <div className={'grid grid-cols-1 gap-y-[55px]'}>
                             <div className={'w-[141px] h-[141px] bg-white border-2 border-white rounded-[20px] shadow-shadow2 hover:shadow-shadow2Hover flex flex-col justify-center items-center gap-y-3'}>
-                                <img src="/src/assets/images/icons/icon-1.png" alt=""/>
+                                <img src={icon1} alt=""/>
                             </div>
                             <div className={'w-[141px] h-[141px] bg-white border-2 border-white rounded-[20px] shadow-shadow2 hover:shadow-shadow2Hover flex flex-col justify-center items-center gap-y-3'}>
-                                <img src="/src/assets/images/icons/fb-icon.png" alt=""/>
+                                <img src={fbIcon} alt=""/>
                             </div>
                             <div className={'w-[141px] h-[141px] bg-white border-2 border-white rounded-[20px] shadow-shadow2 hover:shadow-shadow2Hover flex flex-col justify-center items-center gap-y-3'}>
-                                <img src="/src/assets/images/icons/icon-2.png" alt=""/>
+                                <img src={icon2} alt=""/>
                             </div>
                         </div>
                         <div className={'grid grid-cols-1 gap-y-[55px] mt-[100px]'}>
                             <div className={'w-[141px] h-[141px] bg-white border-2 border-white rounded-[20px] shadow-shadow2 hover:shadow-shadow2Hover flex flex-col justify-center items-center gap-y-3'}>
-                                <img src="/src/assets/images/icons/tiktok-icon.png" alt=""/>
+                                <img src={tiktokIcon} alt=""/>
                             </div>
                             <div className={'w-[141px] h-[141px] bg-white border-2 border-white rounded-[20px] shadow-shadow2 hover:shadow-shadow2Hover flex flex-col justify-center items-center gap-y-3'}>
-                                <img src="/src/assets/images/icons/pinterest-icon.png" alt=""/>
+                                <img src={pinterestIcon} alt=""/>
                                 <p className={'text-black text-sm font-normal'}>Coming soon</p>
                             </div>
                             <div className={'w-[141px] h-[141px] bg-white border-2 border-white rounded-[20px] shadow-shadow2 hover:shadow-shadow2Hover flex flex-col justify-center items-center gap-y-3'}>
-                                <img src="/src/assets/images/icons/twitter-icon.png" alt=""/>
+                                <img src={twitterIcon} alt=""/>
                                 <p className={'text-black text-sm font-normal'}>Coming soon</p>
                             </div>
                         </div>
                         <div className={'grid grid-cols-1 gap-y-[55px]'}>
                             <div className={'w-[141px] h-[141px] bg-white border-2 border-white rounded-[20px] shadow-shadow2 hover:shadow-shadow2Hover flex flex-col justify-center items-center gap-y-3'}>
-                                <img src="/src/assets/images/icons/snapchat-icon.png" alt=""/>
+                                <img src={snapchatIcon} alt=""/>
                                 <p className={'text-black text-sm font-normal'}>Coming soon</p>
                             </div>
                             <div className={'w-[141px] h-[141px] bg-white border-2 border-white rounded-[20px] shadow-shadow2 hover:shadow-shadow2Hover flex flex-col justify-center items-center gap-y-3'}>
-                                <img src="/src/assets/images/icons/icon-3.png" alt=""/>
+                                <img src={icon3} alt=""/>
                                 <p className={'text-black text-sm font-normal'}>Coming soon</p>
                             </div>
                             <div className={'w-[141px] h-[141px] bg-white border-2 border-white rounded-[20px] shadow-shadow2 hover:shadow-shadow2Hover flex flex-col justify-center items-center gap-y-3'}>
-                                <img src="/src/assets/images/icons/icon-4.png" alt=""/>
+                                <img src={icon4} alt=""/>
                                 <p className={'text-black text-sm font-normal'}>Coming soon</p>
                             </div>
                         </div>

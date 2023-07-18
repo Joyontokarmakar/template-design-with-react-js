@@ -1,4 +1,5 @@
-
+import greenNetworkImg from "../../assets/images/icons/green-network.png"
+import yellowNetworkImg from "../../assets/images/icons/yellow-network.png"
 function TouchSection() {
     return (
         <div className={'mt-[155px] container mx-auto 2xl:max-w-[1675px]'}>
@@ -11,7 +12,7 @@ function TouchSection() {
                     <div className={'flex justify-between gap-x-[49px]'}>
                         <div>
                             <div className={'w-[184px] h-[196px] bg-white border-2 border-white rounded-[20px] shadow-shadow2 hover:shadow-shadow2Hover flex flex-col justify-center items-center gap-y-3'}>
-                                <img src="/src/assets/images/icons/green-network.png" alt=""/>
+                                <img src={greenNetworkImg} alt=""/>
                             </div>
                             <div className={'bg-white mt-5 border-2 border-white rounded-[10px] shadow-shadow2 hover:shadow-shadow2Hover'}>
                                 <p className={'text-primary text-[28px] font-medium text-center'}>First Touch</p>
@@ -19,7 +20,7 @@ function TouchSection() {
                         </div>
                         <div>
                             <div className={'w-[184px] h-[196px] bg-white border-2 border-white rounded-[20px] shadow-shadow2 hover:shadow-shadow2Hover flex flex-col justify-center items-center gap-y-3'}>
-                                <img src="/src/assets/images/icons/yellow-network.png" alt=""/>
+                                <img src={yellowNetworkImg} alt=""/>
                             </div>
                             <div className={'bg-white mt-5 border-2 border-white rounded-[10px] shadow-shadow2 hover:shadow-shadow2Hover'}>
                                 <p className={'text-yellow2 text-[28px] font-medium text-center'}>Last Touch</p>
