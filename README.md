@@ -4,7 +4,7 @@
 
 ```
 Next-Conference-Project
-├── React-js                  # JavaScript Library
+├── React-js                 # JavaScript Library
 │   └── vl8.2.0     
 │
 ├── Tailwind CSS             # project root
