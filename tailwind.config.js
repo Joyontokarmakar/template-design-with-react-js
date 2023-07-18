@@ -14,9 +14,12 @@ export default {
         greenShed4: '#64B992',
         black1: '#181F1B',
         black2: '#1A1A1A',
+        black3: '#161D25',
         primaryGray1: '#E3E3E3',
         primaryGray2: '#BBE5C9',
         primaryGray3: '#C9C9C9',
+        yellow1: '#F6D45B',
+        yellow2: '#FFC646',
       },
       boxShadow: {
         shadow1: '0px 6px 4px 0px rgba(27, 83, 49, 0.24)',
