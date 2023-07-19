@@ -12,11 +12,11 @@
 
 
 .socialSecInnerGrid{
-    @apply grid grid-cols-1 gap-y-6 lg:gap-y-[55px]
+    @apply grid grid-cols-1 gap-y-6 lg:gap-y-[35px] 2xl:gap-y-[55px]
 }
 
 .socialImg{
-    @apply w-[80px] lg:w-[141px] h-[80px] lg:h-[141px] bg-white border-2 border-white rounded-[20px] shadow-shadow2 hover:shadow-shadow2Hover flex flex-col justify-center items-center gap-y-3
+    @apply w-[80px] lg:w-[115px] 2xl:w-[141px] h-[80px] lg:h-[115px] 2xl:h-[141px] bg-white border-2 border-white rounded-[20px] shadow-shadow2 hover:shadow-shadow2Hover flex flex-col justify-center items-center gap-y-3
 }
 
 .singleCard{
@@ -40,7 +40,7 @@
 }
 
 .touchImg{
-    @apply w-[100px] lg:w-[184px] h-[110px] lg:h-[196px] bg-white border-2 border-white rounded-[20px] shadow-shadow2 hover:shadow-shadow2Hover flex justify-center items-center
+    @apply w-[100px] lg:w-[160px] 2xl:w-[184px] h-[110px] lg:h-[176px] 2xl:h-[196px] bg-white border-2 border-white rounded-[20px] shadow-shadow2 hover:shadow-shadow2Hover flex justify-center items-center
 }
 
 .touchRoundImg{

@@ -6,7 +6,7 @@ function Footer() {
     }
     return (
         <div className={'bg-primaryGray1 pt-10 lg:pt-[104px] pb-[72px]'}>
-            <div className={'flex flex-col md:flex-row justify-center gap-y-10 lg:gap-y-0 lg:gap-x-[77px] px-5 lg:px-0'}>
+            <div className={'flex flex-col md:flex-row justify-center gap-y-10 lg:gap-y-0 lg:gap-x-[77px] px-5 2xl:px-0'}>
                 <div className={'grid grid-cols-2 lg:grid-cols-3 gap-x-[50px] gap-y-[50px] lg:gap-y-0 lg:gap-x-[100px]'}>
                     <div>
                         <h2 className={'text-black text-lg font-semibold'}>Products</h2>

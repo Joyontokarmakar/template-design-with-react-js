@@ -1,9 +1,9 @@
 import chartImage from "../../assets/images/chart-img.png"
 function CompareDataSection() {
     return (
-        <div className={'mt-20 lg:mt-[160px] container mx-auto 2xl:max-w-[1675px] px-5 lg:px-0'}>
+        <div className={'mt-20 lg:mt-[160px] container mx-auto 2xl:max-w-[1675px] px-5 2xl:px-0'}>
             <div className={'w-4/5 lg:w-2/3 mx-auto text-center'}>
-                <h2 className={'text-3xl lg:text-[51px] text-black1 font-medium'}>Lorem Ipsum is simply dummy text of<br/> the printing and typesetting</h2>
+                <h2 className={'text-3xl lg:text-[51px] lg:leading-[64px] text-black1 font-medium'}>Lorem Ipsum is simply dummy text of<br/> the printing and typesetting</h2>
                 <p className={'text-xl lg:text-2xl text-black1 font-normal mt-[18px] opacity-70'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br/> tempor incididunt ut labore </p>
             </div>
             <div className={'mt-[55px]'}>

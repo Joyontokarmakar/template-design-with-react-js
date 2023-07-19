@@ -1,8 +1,8 @@
 
 function StatSection() {
     return (
-        <div className={'mx-5 lg:mx-0 mt-10 mt-[98px]'}>
-            <p className={'text-black1 xl:text-[35px] 2xl:text-[51px] font-medium w-4/5 lg:w-1/2 mx-auto text-center'}>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit</p>
+        <div className={'mx-5 2xl:mx-0 mt-10 mt-[98px]'}>
+            <p className={'text-black1 text-[35px] 2xl:text-[51px] font-medium w-4/5 lg:w-1/2 mx-auto text-center'}>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit</p>
             <div className={'mt-5 lg:mt-0 container mx-auto bg-transparent shadow-shadow2 2xl:max-w-[1675px] overflow-x-auto'}>
                 <table className={'w-full bg-transparent rounded-md table-auto'}>
                     <thead className={'bg-primaryGray1 text-black'}>

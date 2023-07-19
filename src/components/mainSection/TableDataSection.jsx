@@ -1,7 +1,7 @@
 
 function TableDataSection() {
     return (
-        <div className={'container mx-auto mt-[78px] shadow-shadow2 2xl:max-w-[1675px] overflow-x-auto'}>
+        <div className={'container mx-auto mt-[78px] shadow-shadow2 px-5 2xl:px-0 2xl:max-w-[1675px] overflow-x-auto'}>
             <table className={'w-full bg-transparent rounded-md table-auto'}>
                 <thead className={'bg-primaryGray2 text-black'}>
                     <tr>
