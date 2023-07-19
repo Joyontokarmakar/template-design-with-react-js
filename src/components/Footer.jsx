@@ -5,9 +5,9 @@ function Footer() {
         return new Date().getFullYear()
     }
     return (
-        <div className={'bg-primaryGray1 pt-[104px] pb-[72px]'}>
-            <div className={'flex flex-col md:flex-row justify-center gap-x-[77px]'}>
-                <div className={'flex justify-start gap-x-[100px]'}>
+        <div className={'bg-primaryGray1 pt-10 lg:pt-[104px] pb-[72px]'}>
+            <div className={'flex flex-col md:flex-row justify-center gap-y-10 lg:gap-y-0 lg:gap-x-[77px] px-5 lg:px-0'}>
+                <div className={'grid grid-cols-2 lg:grid-cols-3 gap-x-[50px] gap-y-[50px] lg:gap-y-0 lg:gap-x-[100px]'}>
                     <div>
                         <h2 className={'text-black text-lg font-semibold'}>Products</h2>
                         <ul className={'list-none mt-[21px]'}>
@@ -35,13 +35,13 @@ function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className={'w-0.5 h-[220px] bg-[#010C23] opacity-[0.15]'}></div>
-                <div className={'pl-[25px]'}>
+                <div className={'lg:w-0.5 h-0.5 lg:h-[220px] bg-[#010C23] opacity-[0.15]'}></div>
+                <div className={'lg:pl-[25px] mt-5 lg:mt-0'}>
                     <Link to={'/'}>
-                        <img src={blackLogo} alt="" className={'h-10 w-[202px]'}/>
+                        <img src={blackLogo} alt="" className={'h-10 w-[202px] block mx-auto lg:mx-0'}/>
                     </Link>
-                    <h2 className={'text-2xl leading-[35px] text-black font-semibold mt-5'}>Tristique senectus et netus<br/> et malesuada fames</h2>
-                    <p className={'mt-[30px] text-black2 text-[15px] font-light'}>&copy;{getCopyrightYear()} Logoipsum. All rights reserved</p>
+                    <h2 className={'text-center lg:text-left text-xl lg:text-2xl leading-[35px] text-black font-semibold mt-5'}>Tristique senectus et netus<br/> et malesuada fames</h2>
+                    <p className={'text-center lg:text-left mt-6 lg:mt-[30px] text-black2 text-[15px] font-light'}>&copy;{getCopyrightYear()} Logoipsum. All rights reserved</p>
                 </div>
             </div>
         </div>

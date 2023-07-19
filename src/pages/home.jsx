@@ -33,7 +33,7 @@ function Home() {
             {/* tab section end */}
 
             {/* compareData section start */}
-            <CompareDataSection/>
+             <CompareDataSection/>
             {/* compareData section end */}
 
             {/* touch section start */}

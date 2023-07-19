@@ -2,6 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
+.statTableHead{
+    @apply text-sm lg:text-lg font-semibold pt-3 lg:pt-[18px] pb-[5px] lg:pb-[7px];
+}
+
+.statTableData{
+    @apply rounded-[15px] border-[4px] border-white text-black text-sm lg:text-lg text-center pt-[18px] lg:pt-[23px] pb-[18px] lg:pb-[22px];
+}
+
+
+.socialSecInnerGrid{
+    @apply grid grid-cols-1 gap-y-6 lg:gap-y-[55px]
+}
+
+.socialImg{
+    @apply w-[80px] lg:w-[141px] h-[80px] lg:h-[141px] bg-white border-2 border-white rounded-[20px] shadow-shadow2 hover:shadow-shadow2Hover flex flex-col justify-center items-center gap-y-3
+}
+
+.singleCard{
+    @apply bg-white pt-8 lg:pt-12 px-8 lg:px-[62px] pb-10 lg:pb-[62px] rounded-[20px] w-full lg:w-1/3 shadow-shadow2 hover:shadow-shadow2Hover
+}
+
+.cardHeader{
+    @apply mt-6 lg:mt-[65px] text-black text-lg lg:text-[22px] font-semibold
+}
+
+.cardBody{
+    @apply mt-[10px] lg:mt-[15px] text-black opacity-70 text-sm lg:text-lg font-normal
+}
+
+.singleTab{
+    @apply shadow-shadow3 hover:shadow-shadow2 rounded-2xl lg:rounded-[20px] p-3 lg:p-5 mb-3 lg:mb-[18px] flex justify-start items-center gap-x-[14px]
+}
+
+.tabName{
+    @apply text-black3 text-base lg:text-[22px] font-medium
+}
+
+.touchImg{
+    @apply w-[100px] lg:w-[184px] h-[110px] lg:h-[196px] bg-white border-2 border-white rounded-[20px] shadow-shadow2 hover:shadow-shadow2Hover flex justify-center items-center
+}
+
+.touchRoundImg{
+    @apply w-[120px] lg:w-[190px] h-[120px] lg:h-[202px] bg-white border-2 border-white rounded-full shadow-shadow2 hover:shadow-shadow2Hover flex justify-center items-center
+}
+
 ::selection{
     background-color: #58BF73;
     color: #FFFFFF;
